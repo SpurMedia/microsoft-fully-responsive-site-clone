@@ -1,0 +1,222 @@
+@media only screen and (max-width:750px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    .header {
+        width: 100%;
+        height: 6.5vh;
+    }
+
+    .header span {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        left: 30%;
+    }
+
+    .header-right {
+        width: 35%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .search-hide {
+        display: none;
+    }
+
+    .search {
+        display: block;
+    }
+
+    .dropdown {
+        margin-top: -18px;
+        z-index: 29;
+        width: 100%;
+        display: none;
+        background-color: #f2f2f2;
+    }
+
+    .dropdown div{
+        margin: auto;
+        width: 90%;
+        height: 8vh;
+        font-weight: 100;
+        font-size: 23px;
+        border-bottom: 1px solid #e6e6e6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .menu:hover .dropdown {
+        display: block;
+        position: absolute;
+        top:58px;
+    }
+
+    .dropdown div:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+
+
+    .intro-img{
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .intro-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .small-screen{
+        margin-top: -3.5cm;
+        display: block;
+    }
+
+    .big-text{
+        width: 90%;
+        margin-left: -15px;
+        font-size: 25px;
+        color: black;
+    }
+    .small-text{
+        width: 90%;
+        margin-left: -15px;
+        font-size: 15px;
+        color: black;
+    }
+    .button-text{
+        margin-left: -15px;
+        width: 5cm;
+        height: 1cm;
+        background-color: #005CA5;
+        font-size: 15px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-mod{
+        margin-top: 8cm;
+    }
+
+    .img-box img{
+        width: 370px;
+        height: 220px;
+    }
+
+    .textbox{
+        width: 370px;
+    }
+    .textbox p{
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    
+
+    .outlook-container{display: none;}
+
+    .mobile-view{
+        margin-top: 30px;
+        display: block;
+    }
+    .mobile-view img{
+        width:100%;
+        height: 280px;
+    }
+    .mobile-view .big-text{
+        position: relative;
+        top: 0%; 
+    }
+    .mobile-view .small-text{
+        position: relative;
+        top: 0; 
+    }
+    .mobile-view .button-text{
+        position: relative;
+        top: 0; 
+    }
+
+
+    .home-container{
+        padding: 8px;
+        display: block;
+        font-size: larger;
+        border-top: 1px solid black;
+        border-bottom:  1px solid black;
+    }
+    .home:hover i{
+        animation-name: turn;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes turn {
+        0%{
+            transform: rotate(0turn);
+        }
+
+        100%{
+            transform: rotate(0.5turn);
+        }
+        
+    }
+
+    .home:hover .dropdown{
+        display: block;
+        margin-top: 0%;
+    }
+
+
+    .cart-container{
+        margin: auto;
+        width: 95%;
+        height:30vh ;
+        display: block;
+    }
+
+    .cart-text{
+        padding: 0%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .horizontal-line{
+        margin-left: 0%;
+    }
+
+    .empty-cart{
+        padding: 0%;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+    .sign-in-options{
+        width: 80%;
+    }
+}

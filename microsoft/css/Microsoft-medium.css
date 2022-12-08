@@ -1,0 +1,179 @@
+@media only screen and ( max-width:1050px) and (min-width:750px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    .header-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header{  
+        height: 5vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .header-left{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+    }
+    .header-right{
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header img{
+        vertical-align: middle;
+        max-width: 33px;
+        height: 33px;
+    }
+    .header span{
+        font-size: small;
+    }
+    .header  b{
+        font-size: normal;
+    }
+    #user{
+        border: 1px solid rgb(54, 53, 53);
+        width:25px;
+        height: 25px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+
+
+    .intro-img{
+        height: 30vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .intro-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .small-screen {
+        margin-left: 20px;
+        height: 220px;
+        width: 95%;
+        background-color: white;
+        margin-top: -5%;
+        display: block;
+        z-index: 20;
+        box-shadow: 1px 1px 1px 1px rgba( 0, 0, 0, 0.5);
+    }
+    .small-screen .big-text{
+        position: relative;
+        top: 25%;
+        left: 4%;
+        max-width: 95%;
+        font-size: 25px;
+        color: black;
+    }
+    .small-screen .small-text{
+        color: black;
+        font-size: 17px;
+        position: relative;
+        top: 31%;
+        left: 4%;
+        max-width: 95%;
+    }
+    .small-screen .button-text{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 38%;
+        left: 4%;
+    }
+
+    .img-box img{
+        width: 350px;
+        height: 250px;
+    }
+
+
+    .outlook{
+        width: 99%;
+    }
+
+    .outlook-text{
+        display: none;
+    }
+
+    .tab-view{
+        height: 220px;
+        width: 98%;
+        background-color: white;
+        margin-top: -5%;
+        display: block;
+        position: absolute;
+        z-index: 2000;
+        box-shadow: 1px 1px 1px 1px rgba( 0, 0, 0, 0.5);
+    }
+
+    .tab-view .big-text{
+        position: relative;
+        top: 10%;
+        left: 8%;
+        font-size: 25px;
+        color: black;
+    }
+    .tab-view .small-text{
+        color: black;
+        font-size: 17px;
+        position: relative;
+        top: 6%;
+        left: 8%;
+    }
+    .tab-view .button-text{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 8%;
+        left: 8%;
+        width: 150px;
+        height: 40px;
+        border-radius: 2px;
+    }
+
+
+
+    .footer{
+        margin-top: 250px;
+    }
+    
+
+    .home-container{
+        display: none;
+    }
+    
+
+}
+
+
+
+

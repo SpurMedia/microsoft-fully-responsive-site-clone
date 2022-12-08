@@ -1,0 +1,372 @@
+@media only screen and (max-width: 2600px){
+    body{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+
+    .header-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header{  
+        height: 8vh;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .header-left{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly ;
+        align-items: center;
+    }
+
+
+
+    #back-to-top span{
+        padding-left: 10px;
+        font-size: 14px;    
+    }
+
+    .header-right{
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header-right i{
+        color: black;
+
+    }
+
+
+    .header img{
+        vertical-align: middle;
+        max-width: 33px;
+        height: 33px;
+    }
+    .header span{
+        font-size: small;
+    }
+    .header  b{
+        font-size: normal;
+    }
+    #user{
+        border: 1px solid rgb(54, 53, 53);
+        width:25px;
+        height: 25px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+
+
+    .intro-img{
+        background-image: url(../images/Windows11.jpg);
+        background-position: 100%;
+        background-size: cover;
+        height: 9.5cm;
+        width: 100%;
+        object-fit: fit;
+        height: 550px;
+    }
+    .intro-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .small-screen{
+        display: none;
+    }
+
+    .big-text{
+        max-width: 10cm;
+        font-size: 30px;
+        color: white;
+        font-weight: lighter;
+        position: relative;
+        top: 25vh;
+        left: 9%;
+    }
+    .small-text{
+        max-width: 10.5cm;
+        line-height: 22px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+        position: relative;
+        top: 27.5vh;
+        left: 9%;
+    }
+    .button-text{
+        width: 200px;
+        height: 43px;
+        border-radius: 2px;
+        background-color: #005CA5;
+        font-size: 17px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30.5vh;
+        left: 9%;
+    }
+
+    .section-mod{
+        margin-top: 60px;
+        min-height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-container{
+        width: 92%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .img-box img{
+        width: 280px;
+        height: 170px;
+    }
+
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 280px;
+    }
+    .textbox h3{
+        font-size: 25px;
+        line-height: 0px;
+        font-weight: bolder;
+    }
+    .textbox p{
+        line-height: 23px;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .linked-text{
+        margin-bottom: 20px;
+        font-size: medium;
+        color: #007ECF;
+    }
+
+
+    .outlook-container{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .outlook{
+        width: 90%;
+        height: 550px;
+        background-image: url(../images/microsoft-section4.webp);
+        background-size: cover;
+        background-position: 100%;
+    }
+    .outlook-text p{
+        color: black;
+    }
+
+    .mobile-view{display: none;}
+    .tab-view{display: none;}
+
+
+    .footer{
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #f2f2f2;
+        width: 100%;
+        min-height: 370px;
+    }
+    .footer-section{
+        margin-left: 20px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .footer-section div{
+        font-size: 15px;
+        line-height: 30px;
+        width: 250px;
+    }
+    .footer-section li{
+        font-size: smaller;
+        list-style-type: none;
+    }
+    .footer-section span{
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 40px;
+    }
+    
+    .transport{color: black;
+        background-color: #007ECF;
+        width: 10%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        position: fixed;
+        top: 150vh;
+        left: 88%;
+        z-index: 4000;
+    }
+    a{
+        text-decoration-line: none;
+    }
+    .transport span{
+        margin-left:10px ;
+    }
+
+
+
+    .home-container{
+        display: none;
+    }
+
+    #cart-top{
+        border-left: 2px solid black;
+    }
+
+    #cart-top span{
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: bold;      
+    }
+
+
+    .cart-container{
+        margin: auto;
+        width: 95%;
+        height:28vh ;
+        display: block;
+    }
+
+    .cart-text{
+        padding-left: 7%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    .horizontal-line{
+        margin-left: 7%;
+        border: 1px solid black;
+        max-width: 800px;
+        opacity: 0.5;
+    }
+
+    .empty-cart{
+        padding-left: 7%;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .sign-up-container{
+        width: 100%;
+        height: 100vh;
+        background:-webkit-linear-gradient( 180deg, #D5E0E9, #E9D7D0 );
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .form{
+        box-shadow: 1px 1px 2px #f2f2f2, -1px -1px 2px rgb(51, 48, 48);
+        background-color: white;
+        width: 450px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .infos{
+        width: 80%;
+    }
+    .infos img{
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+    }
+    .infos b{
+        font-size: 20px;
+    }
+    .infos input{
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        border:0px 0px 2px  0px solid rgb(37, 36, 36);
+        width: 95%;
+    }
+    .infos a{
+        color: #007ECF;
+    }
+    .infos button{
+        border: none;
+        font-size: largE;
+        color: white;
+        background-color: #005CA5;
+        padding: 2px 25px;
+
+    }
+    .button-holder{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .sign-in-options{
+        box-shadow: 1px 1px 2px #f2f2f2, -1px -1px 2px rgb(51, 48, 48);
+        background-color: white;
+        width: 450px;
+        height: 7vh; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;     
+    }
+    .sign-in-options div{
+        width: 80%;
+    }
+    .sign-in-options small{
+        margin-left: 10px;
+    }
+}
